@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>point_pillars_ros</name>
+    <version>1.11.0</version>
+    <description>point_pillars_ros</description>
+
+    <maintainer email="cirpue49@yahoo.co.jp">Kosuke Murakami</maintainer>
+    <license>Apache 2.0</license>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <buildtool_depend>autoware_build_flags</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <build_depend>pcl_ros</build_depend>
+    <build_depend>autoware_msgs</build_depend>
+
+
+    <run_depend>roscpp</run_depend>
+    <run_depend>pcl_ros</run_depend>
+    <run_depend>autoware_msgs</run_depend>
+
+    <export></export>
+</package>
